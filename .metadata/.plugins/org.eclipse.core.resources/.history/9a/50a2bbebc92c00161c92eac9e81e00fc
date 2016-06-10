@@ -1,0 +1,14 @@
+package conexion.base.de.datos.java;
+
+public class Conexion {
+
+	private Conexion() {
+		
+	}
+	public static void Conexion getInstancia() {
+		return null;
+	}
+	
+	
+	
+}

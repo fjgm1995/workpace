@@ -1,0 +1,16 @@
+package prueba_cinco.fgonzalez;
+
+import java.util.Date;
+
+public class Transaccion {
+
+	public static void main(String[] args) {
+
+
+	    String id;
+		String tipo; 
+		Date fecha; 
+        int monto; 
+	}
+
+}

@@ -1,0 +1,27 @@
+package conexion.base.de.datos.java;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+import javax.swing.JOptionPane;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+	Class.forName("com.mysql.jdbc.Driver");
+	Connection conexion = DriverManager.getConnection("jdbc:mysql://192.168.0.124/curso","alumnos","java123");
+	
+	String nombreUsuario = JOptionPane.showInputDialog("ingrese usuario"); 
+		String password = JOptionPane.showInputDialog("ingrese clave"); 	
+	
+	
+	Statement s = conexion.createStatement();
+    ResultSet rs = st.executeUpdate("INTER INTO usuarios"+"(nombre_usuarios, password")"+"VALUES"('"+nombreUsuario"'AND"+"password='"+password+"';");
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,29 @@
+package conexion.base.de.datos.java;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+    public class Programa {
+	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+	 
+		{
+			
+		
+		Class.forName("com.mysql.jdbc.Driver");
+		Connection conexion = DriverManager.getConnection("jdbc:mysql://192.168.0.108/curso","alumnos","java123");
+	
+		PreparedStatement pstatementInsert = conexion.prepareStatement(" INSERT INTO alumnos (idalumno, nombre, apellido, apellidoMaterno)"+
+		" VALUES (?,?,?,?);");
+		
+		pstatementInsert.setInt(1, 69);
+		pstatementInsert.setString(2,"james");
+		pstatementInsert.setString(3,"gosling");
+		pstatementInsert.setString(4,"lion"); 
+		int resultpInsert = pstatementInsert.executeUpdate();
+		System.out.println(resultpInsert);
+		
+		}			
+}
+    }

@@ -1,0 +1,17 @@
+package clases;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Programa {
+
+	Map<String,Programa> mapa = new HashMap<String,Programa>(); 
+	{
+		
+	
+		
+		
+		
+	}
+
+}

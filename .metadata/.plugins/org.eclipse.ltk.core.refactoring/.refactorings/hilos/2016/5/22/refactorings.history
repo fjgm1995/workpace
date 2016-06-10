@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;hilos.Contador.contador&apos; in &apos;hilos.Contador&apos;&#x0D;&#x0A;- Original project: &apos;hilos&apos;&#x0D;&#x0A;- Original element: &apos;hilos.Contador.contador&apos;&#x0D;&#x0A;- Getter method name: &apos;getContador&apos;&#x0D;&#x0A;- Setter method name: &apos;setContador&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;contador&apos;" flags="589830" getter="getContador" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;hilos{Contador.java[Contador^contador" insertion="1" setter="setContador" stamp="1464104475875" version="1.0" visibility="1"/>
+</session>

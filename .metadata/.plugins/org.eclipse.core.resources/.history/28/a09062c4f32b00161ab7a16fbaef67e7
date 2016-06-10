@@ -1,0 +1,14 @@
+package prueba_cinco.fgonzalez;
+
+import java.util.List;
+
+public class CuentaBancaria {
+
+	public static void main(String[] args) {
+		
+      int numero;
+      List<Transaccion> Transacciones; 
+
+	}
+
+}

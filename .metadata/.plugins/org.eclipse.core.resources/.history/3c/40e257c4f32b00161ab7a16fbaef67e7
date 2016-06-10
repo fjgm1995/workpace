@@ -1,0 +1,5 @@
+package prueba_cinco.fgonzalez;
+
+public class Empleado extends Persona {
+
+}

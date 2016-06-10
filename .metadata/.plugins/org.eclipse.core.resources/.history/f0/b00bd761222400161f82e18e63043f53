@@ -1,0 +1,12 @@
+package prueba_cuatro.fgonzalez;
+
+public class ProgramaLibro {
+
+	public static void main(String[] args) {
+	 Libro libro = null;
+	if (libro instanceof Libro) {
+		Libro libro1 = (Libro) libro;
+		
+	}
+}
+}

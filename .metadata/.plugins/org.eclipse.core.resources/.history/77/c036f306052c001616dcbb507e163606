@@ -1,0 +1,15 @@
+package conexion.base.de.datos.java;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class Programa {
+	
+	public static void main(String[] args) {
+		try {
+	Class.forName("com.mysql.jdbc.Driver");
+	Connection conexion = DriverManager.getConnection("jdbc:mysql://192.168.0.124/curso","alumnos","java123");
+	Statement s = conexion.createStatement();
+
+		}
